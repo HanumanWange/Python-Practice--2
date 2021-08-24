@@ -1,0 +1,10 @@
+a =  'abcSddhk #$& adjdl'
+count = 0
+for ele in a:
+    if ele.isdigit() or ele.isalpha() or ele == ' ':
+        continue
+    else:
+        count += 1
+print(count)
+    
+    
